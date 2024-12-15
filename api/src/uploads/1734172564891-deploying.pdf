@@ -1,0 +1,285 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 3853
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+28.3464566929133888 813.5435433070865656 Td
+(Deploying a project to Vercel involves these key steps:) Tj
+T* () Tj
+T* (**1. Project Setup and Git Integration:**) Tj
+T* () Tj
+T* (* **Git Repository:** Your project must be hosted on a Git repository \(GitHub, GitLab, Bitbucket, or even a private Git repository\).  Vercel needs access to your code to build and deploy it.) Tj
+T* (* **Vercel Account:**  You'll need a Vercel account.  It's free to start.) Tj
+T* () Tj
+T* (**2. Importing Your Project into Vercel:**) Tj
+T* () Tj
+T* (* **Connect to Git:**  After logging into Vercel, you'll be prompted to import a project.  Select your Git provider \(GitHub, GitLab, etc.\) and authorize Vercel to access your repositories.) Tj
+T* (* **Choose Repository and Branch:**  Select the repository containing your project and specify the branch \(usually `main` or `master`\) that Vercel should deploy from.) Tj
+T* (* **Project Settings \(Optional but Recommended\):**  Vercel offers many customization options:) Tj
+T* (    * **Framework Preset:**  If your project uses a popular framework \(Next.js, React, Vue, etc.\), select the appropriate preset. This automatically configures the build process.  Vercel intelligently detects this in most cases, but manually selecting ensures accuracy.) Tj
+T* (    * **Build Command:**  Specifies the command to build your project \(e.g., `npm run build`, `yarn build`\).  Vercel often auto-detects this, but you might need to adjust it for custom setups.) Tj
+T* (    * **Output Directory:**  Specifies the directory containing the built files \(e.g., `out`, `dist`, `.next`\).  Again, often auto-detected.) Tj
+T* (    * **Routes:**  For projects requiring specific routing configurations \(especially important for serverless functions\).) Tj
+T* (    * **Environment Variables:**  Securely store environment-specific variables \(API keys, database credentials, etc.\).  **Never commit these to your Git repository.**) Tj
+T* (    * **Custom Domains:**  Connect your own custom domain name to your deployed project.) Tj
+T* () Tj
+T* (**3. Vercel Build and Deployment:**) Tj
+T* () Tj
+T* (* **Automatic Deployment \(Recommended\):** Vercel offers automatic deployments.  Whenever you push changes to your Git repository's specified branch, Vercel automatically detects the changes, builds your project, and deploys the updated version.) Tj
+T* (* **Manual Deployment:**  You can also trigger a manual deployment from the Vercel dashboard.) Tj
+T* () Tj
+T* (**4. Post-Deployment:**) Tj
+T* () Tj
+T* (* **Verification:** After deployment, check your project's URL to ensure it's working correctly.) Tj
+T* (* **Monitoring:**  Vercel provides monitoring tools to track your deployment's performance and identify any issues.) Tj
+T* (* **Collaboration:** Vercel facilitates collaboration by allowing multiple team members to access and manage your project.) Tj
+T* () Tj
+T* () Tj
+T* (**Example \(Next.js Project\):**) Tj
+T* () Tj
+T* (Let's say you have a Next.js project in a GitHub repository.  After connecting your GitHub account to Vercel, you'd:) Tj
+T* () Tj
+T* (1. Import the repository.) Tj
+T* (2. Select the `main` branch.) Tj
+T* (3. Vercel will likely automatically detect the Next.js preset.  If not, select it manually.) Tj
+T* (4. The build command is probably already set to `npm run build` or `yarn build` \(depending on your package manager\).) Tj
+T* (5. The output directory would be `.next`.) Tj
+T* (6. You can configure environment variables.) Tj
+T* () Tj
+T* (Once you save the settings, Vercel builds and deploys your project.) Tj
+T* () Tj
+T* (**In short:** The process is largely automated by Vercel, but understanding the key settings allows for customized and optimized deployments.  The ease of use is a significant advantage of Vercel.) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.2)
+/CreationDate (D:20241210115625+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000004057 00000 n 
+0000005874 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000004114 00000 n 
+0000004239 00000 n 
+0000004369 00000 n 
+0000004502 00000 n 
+0000004639 00000 n 
+0000004762 00000 n 
+0000004891 00000 n 
+0000005023 00000 n 
+0000005159 00000 n 
+0000005287 00000 n 
+0000005414 00000 n 
+0000005543 00000 n 
+0000005676 00000 n 
+0000005778 00000 n 
+0000006122 00000 n 
+0000006208 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <B7AD728E88BE7D996C1E3D1A7282F1AD> <B7AD728E88BE7D996C1E3D1A7282F1AD> ]
+>>
+startxref
+6312
+%%EOF
